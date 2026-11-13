@@ -125,13 +125,8 @@ button:active {
 }
 .highlight__wrapper {
   display: flex;
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  gap: 24px;
-  align-items: row;
-  justify-content: center;
-}
+  }
+ 
 
 img {
   width: 100%;
