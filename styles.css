@@ -152,8 +152,8 @@ h2 {
 Highlights
 
 */
-#highlights:after 
-#highlights:before {
+/* #why-choose:after 
+#why-choose:before {
   background: url("assets/wave.svg");
   content: "";
   position: absolute;
@@ -164,6 +164,10 @@ Highlights
   z-index: 1;
   background-size: cover;
   background-repeat: no-repeat;
+} */
+#highlights {
+  position: relative;
+  max-width: 100vw;
 }
 #why-choose:before {
   position: relative;
